@@ -1,0 +1,8 @@
+<nav>
+    <div class="logo">
+        <a routerLink="/"><h1>Home</h1></a>
+    </div>
+    <div class="menu">
+        <a *ngFor="let link of linksArr" [routerLink]="['/', link]" routerLinkActive="you-are-here">{{link | titlecase}}</a>
+    </div>
+</nav>

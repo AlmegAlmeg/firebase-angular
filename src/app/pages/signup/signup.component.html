@@ -1,0 +1,8 @@
+<h1>Signup form</h1>
+<form (ngSubmit)="formSubmit()" #f="ngForm" >
+    <input type="email" name="email" id="email" class="form-control m-2" placeholder="Your email here" ngModel required email>
+    <input type="password" name="password" id="password" class="form-control m-2" placeholder="Your password here" ngModel required pattern="^[a-zA-Z0-9]{3,16}$"
+    >
+        
+    <button type="submit" class="btn btn-warning m-2">Signup</button>
+</form>

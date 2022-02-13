@@ -1,0 +1,24 @@
+nav{
+    background-color: rgb(170, 42, 42);
+    box-shadow: 0 0 3px black;
+    padding: 1% 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .menu{
+    display: flex;
+    gap: 2rem;
+}
+
+nav .menu a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
